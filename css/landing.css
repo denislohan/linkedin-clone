@@ -1,240 +1,244 @@
-@import url('https://fonts.cdnfonts.com/css/brasika-display-trial');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    background: #F4F7FE;
-    font-family: Inter;
-}
-
-.container {
-    padding: 24px 50px;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
-    width: 100%;
-    border-radius: 30px;
-    background: #FFF;
-    box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
-}
-
-header section {
-    display: flex;
-}
-
-header section.far-left {
-    gap: 30px;
-}
-
-header .logo-word {
-    color: #604DCF;
-    font-family: 'Brasika Display - Trial';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 3px 0 0 0;
-}
-
-header .logo-word span {
-    color: #0A0A0A;
-}
-
-.links {
-    display: flex;
-    gap: 14px;
-    align-items: center;
-}
-
-.links .header-link {
-    /* vertical-align: center;
+        @import url('https://fonts.cdnfonts.com/css/brasika-display-trial');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            background: #F4F7FE;
+            font-family: Inter;
+        }
+        
+        .container {
+            padding: 24px 50px;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            width: 100%;
+            border-radius: 30px;
+            background: #FFF;
+            box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+        }
+        
+        header section {
+            display: flex;
+        }
+        
+        header section.far-left {
+            gap: 30px;
+        }
+        
+        header .logo-word {
+            color: #604DCF;
+            font-family: 'Brasika Display - Trial';
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: 3px 0 0 0;
+        }
+        
+        header .logo-word span {
+            color: #0A0A0A;
+        }
+        
+        .links {
+            display: flex;
+            gap: 14px;
+            align-items: center;
+        }
+        
+        .links .header-link {
+            /* vertical-align: center;
     margin: 1rem 0; */
-    color: #9F9BB9;
-    /* Body Text/Inter/14/Regular */
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    text-decoration: none;
-}
-
-@media (max-width: 940px) {
-    .links {
-        display: none;
-    }
-}
-
-@media (max-width: 640px) {
-    .container {
-        padding: 12px 25px;
-        background: #F4F7FE;
-    }
-    .search {
-        display: none;
-    }
-    /* .icons {
+            color: #9F9BB9;
+            /* Body Text/Inter/14/Regular */
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            text-decoration: none;
+        }
+        
+        @media (max-width: 940px) {
+            .links {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 640px) {
+            .container {
+                padding: 12px 25px;
+                background: #F4F7FE;
+            }
+            .search {
+                display: none;
+            }
+            /* .icons {
         margin-left: 20px;
     } */
-}
-
-header section.far-right {
-    gap: 20px;
-    align-items: center;
-}
-
-header .icons {
-    display: flex;
-    gap: 20px;
-    justify-content: space-around;
-}
-
-.search {
-    padding: 10px 16px;
-    border-radius: 60px;
-    background: #F4F7FE;
-}
-
-.search input {
-    background: url(../images/search-icon.svg) no-repeat left center;
-    padding: 0 0 0 1.5rem;
-    border: none;
-    outline: none;
-}
-
-.profile {
-    width: 2.5rem;
-    height: 2.5rem;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: center;
-    background: #FFDFDF;
-    border-radius: 50%;
-}
-
-.profile img {
-    width: 100%;
-    border-radius: 50%;
-}
-
-
-/* Main */
-
-main.content {
-    display: flex;
-    gap: 8.3px;
-}
-
-main.content .left {
-    padding: 13px;
-    flex: 101;
-}
-
-.left p:nth-of-type(1) {
-    margin-top: 1rem;
-    color: #0A0A0A;
-    font-family: 'Brasika Display - Trial';
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 12.452px;
-    /* 150% */
-}
-
-.left p:nth-of-type(2) {
-    color: #9E9E9E;
-    font-family: Inter;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 8.301px;
-    /* 133.333% */
-}
-
-.left .profile-menu .profile {
-    width: 4rem;
-    height: 4rem;
-    margin: auto;
-}
-
-.left .profile-menu p,
-.left .profile-menu a {
-    display: block;
-    text-align: center;
-}
-
-.left .profile-menu a {
-    width: 55%;
-    min-width: 6rem;
-    margin: auto;
-    padding: 1rem 0.5rem;
-    border-radius: 3.113px;
-    background: #604DCF;
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 0.85rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 10.376px;
-    text-decoration: none;
-    /* 142.857% */
-}
-
-.left div.menu {
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.left div.menu .menu-item {
-    padding: .5rem 0;
-    display: flex;
-    gap: 0.3rem;
-    color: #0A0A0A;
-    font-family: Inter;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 12.452px;
-    /* 150% */
-}
-
-.left div.menu .menu-item a {
-    font-size: 1rem;
-    text-decoration: none;
-    margin-top: .2rem;
-}
-
-div.menu .menu-item.no-focus img {
-    width: 1rem;
-}
-
-div.menu .menu-item.focus img {
-    display: none;
-}
-
-.focus .colored-svg {
-    width: 1rem;
-    background-color: #604DCF;
-    -webkit-mask: url(../images/home-icon.svg) no-repeat center;
-    mask: url(../images/stackoverflow.png) no-repeat center / contain;
-    -webkit-mask-size: 1rem;
-    mask-size: 1rem;
-}
-
-main.content .center {
-    flex: 402;
-}
-
-main.content .right {
-    flex: 168.5;
-}
+        }
+        
+        header section.far-right {
+            gap: 20px;
+            align-items: center;
+        }
+        
+        header .icons {
+            display: flex;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        
+        .search {
+            padding: 10px 16px;
+            border-radius: 60px;
+            background: #F4F7FE;
+        }
+        
+        .search input {
+            background: url(../images/search-icon.svg) no-repeat left center;
+            padding: 0 0 0 1.5rem;
+            border: none;
+            outline: none;
+        }
+        
+        .profile {
+            width: 2.5rem;
+            height: 2.5rem;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: center;
+            background: #FFDFDF;
+            border-radius: 50%;
+        }
+        
+        .profile img {
+            width: 100%;
+            border-radius: 50%;
+        }
+        /* Main */
+        
+        main.content {
+            display: flex;
+            gap: 8.3px;
+        }
+        
+        main.content .left {
+            padding: 13px;
+            flex: 101;
+        }
+        
+        .left p:nth-of-type(1) {
+            margin-top: 1rem;
+            color: #0A0A0A;
+            font-family: 'Brasika Display - Trial';
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 12.452px;
+            /* 150% */
+        }
+        
+        .left p:nth-of-type(2) {
+            color: #9E9E9E;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 8.301px;
+            /* 133.333% */
+        }
+        
+        .left .profile-menu .profile {
+            width: 4rem;
+            height: 4rem;
+            margin: auto;
+        }
+        
+        .left .profile-menu p,
+        .left .profile-menu a {
+            display: block;
+            text-align: center;
+        }
+        
+        .left .profile-menu a {
+            width: 55%;
+            min-width: 6rem;
+            margin: auto;
+            padding: 1rem 0.5rem;
+            border-radius: 3.113px;
+            background: #604DCF;
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 0.85rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 10.376px;
+            text-decoration: none;
+            /* 142.857% */
+        }
+        
+        .left div.menu {
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .left div.menu .menu-item {
+            padding: .5rem 0;
+            display: flex;
+            gap: 0.3rem;
+            color: #0A0A0A;
+            font-family: Inter;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 12.452px;
+            cursor: pointer;
+            /* 150% */
+        }
+        
+        .left div.menu .menu-item a {
+            font-size: 1rem;
+            text-decoration: none;
+            /* margin-top: .2rem; */
+            color: var(--gray-02100, #0A0A0A);
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 12.452px;
+        }
+        
+        div.menu .menu-item.no-focus img {
+            width: 1rem;
+        }
+        
+        div.menu .menu-item.focus img {
+            display: none;
+        }
+        
+        .focus .colored-svg {
+            width: 1rem;
+            background-color: #604DCF;
+            -webkit-mask: url(../images/home-icon.svg) no-repeat center;
+            mask: url(../images/home-icon.svg) no-repeat center / contain;
+            -webkit-mask-size: 1rem;
+            mask-size: 1rem;
+        }
+        
+        main.content .center {
+            flex: 402;
+        }
+        
+        main.content .right {
+            flex: 168.5;
+        }
