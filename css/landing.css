@@ -158,22 +158,23 @@ main.content .left {
     /* 133.333% */
 }
 
-.left div .profile {
+.left .profile-menu .profile {
     width: 4rem;
     height: 4rem;
     margin: auto;
 }
 
-.left div p,
-a {
+.left .profile-menu p,
+.left .profile-menu a {
     display: block;
     text-align: center;
 }
 
-.left a {
-    max-width: 60%;
+.left .profile-menu a {
+    width: 55%;
+    min-width: 6rem;
     margin: auto;
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 0.5rem;
     border-radius: 3.113px;
     background: #604DCF;
     color: #FFF;
@@ -185,6 +186,49 @@ a {
     line-height: 10.376px;
     text-decoration: none;
     /* 142.857% */
+}
+
+.left div.menu {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.left div.menu .menu-item {
+    padding: .5rem 0;
+    display: flex;
+    gap: 0.3rem;
+    color: #0A0A0A;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12.452px;
+    /* 150% */
+}
+
+.left div.menu .menu-item a {
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: .2rem;
+}
+
+div.menu .menu-item.no-focus img {
+    width: 1rem;
+}
+
+div.menu .menu-item.focus img {
+    display: none;
+}
+
+.focus .colored-svg {
+    width: 1rem;
+    background-color: #604DCF;
+    -webkit-mask: url(../images/home-icon.svg) no-repeat center;
+    mask: url(../images/stackoverflow.png) no-repeat center / contain;
+    -webkit-mask-size: 1rem;
+    mask-size: 1rem;
 }
 
 main.content .center {
