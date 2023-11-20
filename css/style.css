@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+    padding: 0.2px;
+}
+
 .wrapper {
     display: flex;
     gap: 1rem;
@@ -13,5 +18,13 @@
 }
 
 #right {
+    height: 100vh;
     flex: 1;
+    padding: 38px 51px 38px 0;
+}
+
+#right .right-box {
+    height: 100%;
+    border-radius: 29px;
+    background-color: #E2DCFF;
 }
