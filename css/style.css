@@ -4,6 +4,7 @@
 }
 
 body {
+    font-family: 'Brasika Display - Trial';
     height: 100vh;
     padding: 0.2px;
 }
@@ -13,8 +14,24 @@ body {
     gap: 1rem;
 }
 
+
+/* Left */
+
 #left {
     flex: 1;
+}
+
+#left h1 {
+    margin: 38px auto auto 89.5px;
+    color: var(--primary-main, #604DCF);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#left h1>span {
+    color: var(--gray-02100, #0A0A0A);
 }
 
 #right {
