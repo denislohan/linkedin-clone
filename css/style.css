@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/brasika-display-trial');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -21,7 +22,7 @@ body {
     flex: 1;
 }
 
-#left h1 {
+#left .logo-word {
     margin: 38px auto auto 89.5px;
     color: var(--primary-main, #604DCF);
     font-size: 25px;
@@ -30,8 +31,51 @@ body {
     line-height: normal;
 }
 
-#left h1>span {
+#left .logo-word>span {
     color: var(--gray-02100, #0A0A0A);
+}
+
+.authbox {
+    width: 59%;
+    margin: auto;
+    margin-top: 4.4375rem;
+}
+
+.authbuttons {
+    display: flex;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 99px;
+    background: var(--gray-0220, #F5F5F5);
+}
+
+.authbuttons a {
+    flex: 1;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    color: #0A0A0A;
+    text-align: center;
+    /* 24px */
+    letter-spacing: -0.16px;
+}
+
+.authbuttons a.login {
+    border-radius: 99px;
+    background: #E2DCFF;
+    border-radius: 99px;
+}
+
+#left h1.title {
+    margin: 2.25rem 0;
+    color: #0A0A0A;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 #right {
