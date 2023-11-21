@@ -1,5 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/brasika-display-trial');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -43,6 +44,7 @@ body {
 
 .authbuttons {
     display: flex;
+    flex-wrap: wrap;
     padding: 0.5rem 1rem 0.5rem 1rem;
     border-radius: 99px;
     background: var(--gray-0220, #F5F5F5);
@@ -76,6 +78,38 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+form input {
+    display: block;
+    margin: 0.25rem 0 1rem 0;
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    border-radius: 0.375rem;
+    border: 1px solid #C2C2C2;
+    background: #FFF;
+    outline-style: none;
+}
+
+form input::placeholder {
+    color: #757575;
+    /* Body Text/Inter/14/Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+form label {
+    color: #424242;
+    /* Body Text/Inter/16/Regular */
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
 }
 
 #right {
