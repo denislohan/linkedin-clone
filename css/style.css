@@ -38,7 +38,7 @@
         .authbox {
             width: 59%;
             margin: auto;
-            margin-top: 4.4375rem;
+            margin-top: 3.4375rem;
         }
         
         .authbuttons {
@@ -71,7 +71,7 @@
         }
         
         #left h1.title {
-            margin: 2.25rem 0;
+            margin: 2rem 0;
             color: #0A0A0A;
             font-size: 37px;
             font-style: normal;
@@ -174,6 +174,7 @@
         }
         
         .or {
+            margin: 36px 0;
             display: flex;
             align-items: center;
             gap: 18px;
@@ -195,10 +196,36 @@
             line-height: 20px;
         }
         
+        a.secondary-btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background: #F5F5F5;
+            background-size: 4%;
+            padding: 14px 0;
+            font-family: DM Sans;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            text-decoration: none;
+        }
+        
+        .google-auth {
+            position: relative;
+        }
+        
+        .google-auth img {
+            position: absolute;
+            top: 32%;
+            left: 30%;
+            width: 1rem;
+        }
+        
         #right {
             height: 100vh;
             flex: 1;
             padding: 38px 51px 38px 0;
+            width: 100;
         }
         
         #right .right-box {
