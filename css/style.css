@@ -128,6 +128,20 @@ form label {
     cursor: pointer;
 }
 
+.forgot-pass {
+    display: block;
+    text-align: right;
+    color: #0A0A0A;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: -14px;
+    /* 142.857% */
+    text-decoration-line: underline;
+}
+
 #right {
     height: 100vh;
     flex: 1;
