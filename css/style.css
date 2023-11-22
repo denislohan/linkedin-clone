@@ -112,6 +112,22 @@ form label {
     /* 150% */
 }
 
+
+/* input#password {
+    background: url('../images/eye.svg') no-repeat 97% center;
+} */
+
+.text-input {
+    position: relative;
+}
+
+.password-eye {
+    position: absolute;
+    right: .5rem;
+    top: 2.6rem;
+    cursor: pointer;
+}
+
 #right {
     height: 100vh;
     flex: 1;
