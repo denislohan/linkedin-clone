@@ -65,12 +65,11 @@
         }
         
         .authbuttons a.login {
-            border-radius: 99px;
             background: #E2DCFF;
             border-radius: 99px;
         }
         
-        #left h1.title {
+        h1.title {
             margin: 2rem 0;
             color: #0A0A0A;
             font-size: 37px;
