@@ -10,9 +10,11 @@
             font-family: 'Brasika Display - Trial';
             height: 100vh;
             padding: 0.2px;
+            margin-top: 0.1px;
         }
         
         .wrapper {
+            margin-top: 0.1px;
             display: flex;
             gap: 1rem;
         }
@@ -237,6 +239,21 @@
                 font-size: 25px;
             }
         }
+        /* Rigth */
+        
+        #right {
+            margin-top: 0.1px;
+            height: 100vh;
+            flex: 1;
+            padding: 38px 51px 38px 0;
+            width: 100;
+        }
+        
+        .right-box {
+            padding: 82px 104px 0 51px;
+        }
+        
+        .title2 {}
         
         #right {
             height: 100vh;
