@@ -269,6 +269,8 @@
         }
         
         .auth-cover-image {
+            position: relative;
+            top: 12px;
             padding-left: 37px;
         }
         
