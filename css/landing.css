@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    background: #F4F7FE;
+    font-family: Inter;
+}
+
 .container {
     padding: 24px 50px;
-    background: #F4F7FE;
 }
 
 header {
@@ -57,6 +62,26 @@ header .logo-word span {
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+    text-decoration: none;
+}
+
+@media (max-width: 940px) {
+    .links {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        padding: 12px 25px;
+        background: #F4F7FE;
+    }
+    .search {
+        display: none;
+    }
+    /* .icons {
+        margin-left: 20px;
+    } */
 }
 
 header section.far-right {
@@ -83,6 +108,89 @@ header .icons {
     outline: none;
 }
 
-header .profile {
-    background: url(../images/profile-background.svg) no-repeat;
+.profile {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    background: #FFDFDF;
+    border-radius: 50%;
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+/* Main */
+
+main.content {
+    display: flex;
+    gap: 8.3px;
+}
+
+main.content .left {
+    padding: 13px;
+    flex: 101;
+}
+
+.left p:nth-of-type(1) {
+    margin-top: 1rem;
+    color: #0A0A0A;
+    font-family: 'Brasika Display - Trial';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12.452px;
+    /* 150% */
+}
+
+.left p:nth-of-type(2) {
+    color: #9E9E9E;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 8.301px;
+    /* 133.333% */
+}
+
+.left div .profile {
+    width: 4rem;
+    height: 4rem;
+    margin: auto;
+}
+
+.left div p,
+a {
+    display: block;
+    text-align: center;
+}
+
+.left a {
+    max-width: 60%;
+    margin: auto;
+    padding: 0.5rem 0.5rem;
+    border-radius: 3.113px;
+    background: #604DCF;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10.376px;
+    text-decoration: none;
+    /* 142.857% */
+}
+
+main.content .center {
+    flex: 402;
+}
+
+main.content .right {
+    flex: 168.5;
 }
