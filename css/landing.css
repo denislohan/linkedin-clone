@@ -1,0 +1,88 @@
+@import url('https://fonts.cdnfonts.com/css/brasika-display-trial');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 24px 50px;
+    background: #F4F7FE;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+}
+
+header section {
+    display: flex;
+}
+
+header section.far-left {
+    gap: 30px;
+}
+
+header .logo-word {
+    color: #604DCF;
+    font-family: 'Brasika Display - Trial';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 3px 0 0 0;
+}
+
+header .logo-word span {
+    color: #0A0A0A;
+}
+
+.links {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.links .header-link {
+    /* vertical-align: center;
+    margin: 1rem 0; */
+    color: #9F9BB9;
+    /* Body Text/Inter/14/Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+header section.far-right {
+    gap: 20px;
+    align-items: center;
+}
+
+header .icons {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.search {
+    padding: 10px 16px;
+    border-radius: 60px;
+    background: #F4F7FE;
+}
+
+.search input {
+    background: url(../images/search-icon.svg) no-repeat left center;
+    padding: 0 0 0 1.5rem;
+    border: none;
+    outline: none;
+}
+
+header .profile {
+    background: url(../images/profile-background.svg) no-repeat;
+}
