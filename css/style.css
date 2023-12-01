@@ -40,7 +40,7 @@
         .authbox {
             width: 59%;
             margin: auto;
-            margin-top: 3.4375rem;
+            margin-top: 2.4375rem;
         }
         
         .authbuttons {
@@ -72,7 +72,7 @@
         }
         
         h1.title {
-            margin: 2rem 0;
+            margin: 1.5rem 0;
             color: #0A0A0A;
             font-size: 37px;
             font-style: normal;
@@ -175,7 +175,7 @@
         }
         
         .or {
-            margin: 36px 0;
+            margin: 20px 0;
             display: flex;
             align-items: center;
             gap: 18px;
@@ -250,10 +250,12 @@
         }
         
         .right-box {
-            padding: 82px 104px 0 51px;
+            padding: 72px 104px 0 51px;
         }
         
-        .title2 {}
+        .right-box .title2 {
+            margin-top: 10px;
+        }
         
         #right {
             height: 100vh;
@@ -263,7 +265,6 @@
         }
         
         #right .right-box {
-            height: 100%;
             border-radius: 29px;
             background-color: #E2DCFF;
         }
@@ -275,7 +276,14 @@
         }
         
         .auth-cover-image img {
-            max-width: 100%;
+            position: relative;
+            bottom: -1rem;
+            max-width: 80%;
+            margin-top: 2rem;
+        }
+        
+        .yellow {
+            background-color: yellow;
         }
         
         @media(max-width:779px) {
