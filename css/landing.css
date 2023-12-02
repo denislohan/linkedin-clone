@@ -169,9 +169,10 @@
         }
         
         .left .profile-menu a {
+            margin: auto;
+            margin-top: 12px;
             width: 55%;
             min-width: 6rem;
-            margin: auto;
             padding: 1rem 0.5rem;
             border-radius: 3.113px;
             background: #604DCF;
